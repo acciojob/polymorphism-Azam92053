@@ -10,10 +10,7 @@ public class Main {
         System.out.print(p.product(3.00000, 9.00000));
 
     }
-
-}
-
-class Product{
+    class Product{
     public int product(int x, int y) {
         return x*y;
     }
@@ -26,3 +23,6 @@ class Product{
         return x * y;
     }
 }
+
+}
+
