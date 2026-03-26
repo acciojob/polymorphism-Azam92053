@@ -10,7 +10,7 @@ public class Main {
         System.out.print(p.product(3.00000, 9.00000));
 
     }
-    class Product{
+    static class Product{
     public int product(int x, int y) {
         return x*y;
     }
@@ -22,7 +22,8 @@ public class Main {
     public double product(double x, double y) {
         return x * y;
     }
+    }
 }
 
-}
+
 
